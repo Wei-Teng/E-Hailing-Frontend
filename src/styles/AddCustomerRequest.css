@@ -1,0 +1,18 @@
+form {
+    margin: 40px 0 0 30px;
+}
+
+span {
+    margin: 0 20px;
+}
+
+input {
+    background-color: lightgreen;
+    color: black;
+    border-color: lightgreen;
+    border-radius: 5px; 
+    display: block; 
+    padding: 5px; 
+    margin: 45px auto; 
+    cursor: pointer;
+}

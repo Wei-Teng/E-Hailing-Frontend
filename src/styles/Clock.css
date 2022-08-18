@@ -1,0 +1,11 @@
+.clock-state {
+    font-size: 30px;
+    color: cornflowerblue;
+    background-color: lightblue;
+    opacity: 85%;
+    position: absolute;
+    left: 73%; 
+    top: 94%;
+    padding: 0 5px;
+    border-radius: 5px;
+}

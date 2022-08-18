@@ -1,0 +1,32 @@
+.add-menu {
+    position: absolute;
+    top: 22%;
+    left: 33%;
+    margin: 40px 0 0 30px;
+}
+
+.add-menu.active {
+    transition: 1.5s;
+}
+
+.add-menu.inactive {
+    opacity: 0%;
+    transition: 400ms;
+    user-select: none;
+    pointer-events: none;
+}
+
+span {
+    margin: 0 20px;
+}
+
+input {
+    background-color: lightgreen; 
+    color: black; 
+    border-color: lightgreen; 
+    border-radius: 5px; 
+    display: block; 
+    padding: 5px; 
+    margin: 45px auto;
+    cursor: pointer;
+}

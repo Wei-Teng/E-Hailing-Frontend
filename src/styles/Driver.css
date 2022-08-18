@@ -1,0 +1,60 @@
+.title {
+    color: white;
+    font-size: 18px;
+    font-family: roboto;
+    position: absolute;
+    top: 2.5%;
+    left: 20%;
+}
+
+.driver-container {
+    padding: 30px 20px;
+    width: 800px;
+    height: 500px;
+    margin: 80px auto 50px;
+    opacity: 85%;
+    overflow: auto;
+}
+
+.driver-container-text {
+    display: block;
+    width: 100px;
+    margin: auto;
+    font-size: 18px;
+}
+
+.no-driver-text {
+    font-size: 18px; 
+    margin: 70px auto; 
+    width: 160px;
+}
+
+.driver-menu {
+    position: relative;
+    margin: 10px; 
+    padding: 15px; 
+    text-align: left;
+}
+
+.driver-menu.active {
+    left: 0;
+    transition: 500ms;
+}
+
+.driver-menu.inactive {
+    left: -110%;
+    transition: 500ms;
+}
+
+.delete-icon {
+    position: absolute;
+    top: 15px;
+    right: 15px; 
+    cursor: pointer;
+}
+
+.add-driver-button {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}

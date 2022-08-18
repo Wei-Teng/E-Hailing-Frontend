@@ -1,0 +1,24 @@
+.title {
+    color: white;
+    font-size: 18px;
+    font-family: roboto;
+    position: absolute;
+    top: 2.5%;
+    left: 20%;
+}
+
+.create-customer-container {
+    padding: 30px 20px;
+    width: 800px;
+    height: 500px;
+    margin: 80px auto;
+    opacity: 85%;
+    overflow: auto;
+}
+
+.create-customer-container-text {
+    display: block;
+    width: 250px;
+    margin: auto;
+    font-size: 18px;
+}
